@@ -126,4 +126,10 @@
     <InterfaceDefinition Include="RegistrationController_iPad.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.MonoTouch.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\CrisisCheckin.Core\CrisisCheckin.Core.csproj">
+      <Project>{2B013945-CA64-4595-989E-47AE2BA97611}</Project>
+      <Name>CrisisCheckin.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
